@@ -1,0 +1,41 @@
+/* Custom CSS for About page */
+
+/* Wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #f170b0; /* Light gray background color */
+    padding: 30px;
+    text-align: center;
+    font-size: larger;
+    font-weight:bolder;
+    
+}
+
+/* Content */
+.content {
+    flex: 1; /* Fill remaining vertical space */
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 20px ;
+    text-align: center; /* Center align text */
+    font-size: x-large;
+    margin-left: 100px;
+
+}
+
+
+/* Footer */
+.footer {
+    background-color: #bababa; /* Light gray background color */
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
